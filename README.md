@@ -56,8 +56,9 @@
       - Silver: <i>'silver/delta/bike_store_sample_database/'</i>
       - Gold: Parquet: <i>'/dbfs/gold/parquet/bike_store_sample_database'</i> e Delta: <i>'gold/delta/bike_store_sample_database/'</i>
   
-  - Organização do WorkFlow (Disponibilizado link no Drive):
+  - Organização do WorkFlow (Imagem na pasta 'Image' aqui no repositório):
     - Foi pensado em somente processar o próximo notebook, caso os dados relacionados estiverem processados com sucesso já;
+    - O WorkFlow está configurado para execução diariamente às 17:00 horas e configurado para envio de alerta via email em caso de erro.
     - Separado em níveis:
       - 1º Nível: Execução somente do notebook Bronze que busca os dados;
       - 2º Nível: Execução dos notebooks Silver, encadeados de acordo com a dependência de informações;
