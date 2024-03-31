@@ -14,11 +14,11 @@
   - Agregue os dados para obter estatísticas de vendas, por exemplo, o total de vendas por produto ou por categoria.
   - Introduza uma regra mais complexa, como identificar padrões de comportamento de compra ao longo do tempo ou criar categorias personalizadas de produtos com base em determinados critérios.
 
-### 3. Saída em Parquet e Delta:
+## 3. Saída em Parquet e Delta:
   - Grave os dados transformados e agregados em um formato Parquet para persistência eficiente.
   - Grave os mesmos dados em formato Delta Lake para aproveitar as funcionalidades de versionamento e transações ACID. 
 
-## 5.1- Exploração Adicional (Opcional):
+## 4. Exploração Adicional (Opcional):
   - Execute consultas exploratórias para entender melhor os dados e validar as transformações.
   - Crie visualizações ou relatórios para comunicar insights.
   - Agende o notebook para execução automática em intervalos regulares para garantir a atualização contínua dos dados.
